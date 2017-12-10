@@ -6,10 +6,8 @@ use std::path::PathBuf;
 
 fn main() {
     gcc::Build::new().file("libhydrogen/hydrogen.c").compile(
-        "libhydrogen",
+        "hydrogen",
     );
-
-    println!("cargo:rustc-link-lib=hydrogen");
 
     let bindings = bindgen::Builder::default()
         .header("libhydrogen/hydrogen.h")
