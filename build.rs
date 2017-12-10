@@ -20,7 +20,7 @@ fn main() {
         .derive_debug(true)
         .derive_copy(true)
         .derive_eq(true)
-        .use_core(true)
+        .use_core()
         .prepend_enum_name(true)
         .rustfmt_bindings(true)
         .generate()
