@@ -17,6 +17,12 @@ fn main() {
         .whitelist_type("randombytes_.*")
         .whitelist_var("hydro_.*")
         .whitelist_var("randombytes_.*")
+        .derive_debug(true)
+        .derive_copy(true)
+        .derive_eq(true)
+        .use_core(true)
+        .prepend_enum_name(true)
+        .rustfmt_bindings(true)
         .generate()
         .expect("Unable to generate bindings");
 
