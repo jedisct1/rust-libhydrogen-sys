@@ -11,6 +11,12 @@ fn main() {
 
     let bindings = bindgen::Builder::default()
         .header("libhydrogen/hydrogen.h")
+        .whitelist_function("hydro_.*")
+        .whitelist_function("randombytes_.*")
+        .whitelist_type("hydro_*")
+        .whitelist_type("randombytes_*")
+        .whitelist_var("hydro_*")
+        .whitelist_var("randombytes_*")
         .generate()
         .expect("Unable to generate bindings");
 
