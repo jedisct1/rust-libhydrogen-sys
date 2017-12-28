@@ -1,3 +1,6 @@
+![libhydrogen-sys](https://raw.github.com/jedisct1/libhydrogen/master/logo.png)
+==================
+
 The [Hydrogen](https://github.com/jedisct1/libhydrogen) library is a small, easy-to-use, hard-to-misuse cryptographic library optimized for size.
 
 Features:
