@@ -10,6 +10,6 @@ Features:
 - Can generate cryptographically-secure random numbers, even on Arduino boards.
 - Attempts to mitigate the implications of accidental misuse, even on systems with an unreliable PRG and/or no clock.
 
-This crate implement low-level Rust bindings.
+This crate implement low-level Rust bindings, that don't require any external dependencies.
 
 # [Libhydrogen documentation](https://github.com/jedisct1/libhydrogen/wiki)
