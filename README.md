@@ -1,4 +1,4 @@
-The Hydrogen library is a small, easy-to-use, hard-to-misuse cryptographic library optimized for size.
+The [Hydrogen](https://github.com/jedisct1/libhydrogen) library is a small, easy-to-use, hard-to-misuse cryptographic library optimized for size.
 
 Features:
 - Consistent high-level API, inspired by libsodium. Instead of low-level primitives, it exposes simple functions to solve common problems that cryptography can solve.
@@ -11,3 +11,5 @@ Features:
 - Attempts to mitigate the implications of accidental misuse, even on systems with an unreliable PRG and/or no clock.
 
 This crate implement low-level Rust bindings.
+
+# [Libhydrogen documentation](https://github.com/jedisct1/libhydrogen/wiki)
