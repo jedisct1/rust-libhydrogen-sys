@@ -5,9 +5,9 @@ use std::env;
 use std::path::PathBuf;
 
 fn main() {
-    gcc::Build::new().file("libhydrogen/hydrogen.c").compile(
-        "hydrogen",
-    );
+    gcc::Build::new()
+        .file("libhydrogen/hydrogen.c")
+        .compile("hydrogen");
 
     let bindings = bindgen::Builder::default()
         .header("libhydrogen/hydrogen.h")

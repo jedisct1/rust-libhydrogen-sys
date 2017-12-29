@@ -2,6 +2,11 @@
 name = "libhydrogen-sys"
 version = "0.1.0"
 authors = ["Frank Denis <github@pureftpd.org>"]
+description = "Low-level bindings for the Hydrogen cryptography library"
+license = "ISC"
+homepage = "https://github.com/jedisct1/rust-libhydrogen-sys"
+repository = "https://github.com/jedisct1/rust-libhydrogen-sys"
+
 build = "build.rs"
 
 [build-dependencies]
