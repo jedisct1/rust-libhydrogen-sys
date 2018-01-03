@@ -13,6 +13,7 @@ fn main() {
         .header("libhydrogen/hydrogen.h")
         .whitelist_function("hydro_.*")
         .whitelist_function("randombytes_.*")
+        .whitelist_type("HYDRO_.*")
         .whitelist_type("hydro_.*")
         .whitelist_type("randombytes_.*")
         .whitelist_var("hydro_.*")
