@@ -15,4 +15,6 @@ Features:
 
 This crate implement low-level Rust bindings, that don't require any external dependencies.
 
+The [libhydrogen](https://github.com/jedisct1/rust-libhydrogen) crate provides a high-level idiomatic interface.
+
 # [Libhydrogen documentation](https://github.com/jedisct1/libhydrogen/wiki)
