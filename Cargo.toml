@@ -4,7 +4,7 @@ version = "0.7.1"
 authors = ["Frank Denis <github@pureftpd.org>"]
 description = "Low-level bindings for the Hydrogen cryptography library"
 license = "ISC"
-homepage = "https://github.com/jedisct1/rust-libhydrogen-sys"
+homepage = "https://libhydrogen.org"
 repository = "https://github.com/jedisct1/rust-libhydrogen-sys"
 
 build = "build.rs"
