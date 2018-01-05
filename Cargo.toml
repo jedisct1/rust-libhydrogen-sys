@@ -1,6 +1,6 @@
 [package]
 name = "libhydrogen-sys"
-version = "0.7.0"
+version = "0.7.1"
 authors = ["Frank Denis <github@pureftpd.org>"]
 description = "Low-level bindings for the Hydrogen cryptography library"
 license = "ISC"
