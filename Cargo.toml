@@ -6,6 +6,7 @@ description = "Low-level bindings for the Hydrogen cryptography library"
 license = "ISC"
 homepage = "https://libhydrogen.org"
 repository = "https://github.com/jedisct1/rust-libhydrogen-sys"
+edition = "2018"
 
 build = "build.rs"
 
