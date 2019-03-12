@@ -1,11 +1,11 @@
 use bindgen;
-use gcc;
+use cc;
 
 use std::env;
 use std::path::PathBuf;
 
 fn main() {
-    gcc::Build::new()
+    cc::Build::new()
         .file("libhydrogen/hydrogen.c")
         .flag_if_supported("-fomit-frame-pointer")
         .opt_level(3)
