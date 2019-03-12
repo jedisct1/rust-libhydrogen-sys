@@ -7,6 +7,8 @@ use std::path::PathBuf;
 fn main() {
     gcc::Build::new()
         .file("libhydrogen/hydrogen.c")
+        .flag_if_supported("-fomit-frame-pointer")
+        .opt_level(3)
         .compile("hydrogen");
 
     let bindings = bindgen::Builder::default()
