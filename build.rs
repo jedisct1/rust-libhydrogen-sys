@@ -20,6 +20,7 @@ fn main() {
         .whitelist_var("HYDRO_.*")
         .whitelist_var("hydro_.*")
         .whitelist_var("randombytes_.*")
+        .size_t_is_usize(true)
         .derive_copy(true)
         .derive_debug(true)
         .derive_default(true)
