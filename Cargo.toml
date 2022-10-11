@@ -11,5 +11,5 @@ edition = "2018"
 build = "build.rs"
 
 [build-dependencies]
-bindgen = ">= 0.59"
+bindgen = "0.60"
 cc = "1.0"
