@@ -24,7 +24,6 @@ fn main() {
         .derive_eq(true)
         .layout_tests(true)
         .prepend_enum_name(true)
-        .rustfmt_bindings(true)
         .generate()
         .expect("Unable to generate bindings");
 
