@@ -1,9 +1,9 @@
 [package]
-keywords = ["libhydrogen", "cryptography", "encryption", "ffi", "bindings"]
 name = "libhydrogen-sys"
-version = "0.9.4"
+version = "0.9.5"
 authors = ["Frank Denis <github@pureftpd.org>"]
 description = "Low-level FFI bindings to libhydrogen for encryption, signatures, hashing, key exchange, and random number generation"
+keywords = ["libhydrogen", "cryptography", "encryption", "ffi", "bindings"]
 license = "ISC"
 homepage = "https://libhydrogen.org"
 repository = "https://github.com/jedisct1/rust-libhydrogen-sys"
@@ -13,4 +13,4 @@ build = "build.rs"
 
 [build-dependencies]
 bindgen = "0.71"
-cc = "1.2"
+cc = "1.4"
